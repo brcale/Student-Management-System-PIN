@@ -1,5 +1,5 @@
 # Student-Management-System
-Student Management System is a web application that demonstrates a siplified system for organizing and managing students. This web app is connected
+Student Management System is a web application that demonstrates a simplified system for organizing and managing students. This web app is connected
 to a database, which stores main information about students.
 
 ![slika create student](https://user-images.githubusercontent.com/50056973/74875578-caa60600-5362-11ea-972c-e83e4947d47d.png)
