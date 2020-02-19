@@ -1,0 +1,218 @@
+﻿body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+/*seach html css*/
+/* Dropdown Button */
+.dropbtn {
+    background-color: #e8491d;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    /*position: absolute;*/
+    background-color: #3e8e41;
+    /*min-width: 160px;*/
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+    /* Links inside the dropdown */
+    .dropdown-content a {
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+        /* Change color of dropdown links on hover */
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+
+/*global*/
+input {
+    outline: 0;
+    border-color: #e8491d;
+    border-width: 0 0 2px 0;
+    background-color: inherit;
+    color: white;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.button_1 {
+    height: 30px;
+    background: #e8491d;
+    border-style: solid;
+    border-color: orange;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: #ffffff;
+}
+
+.dark {
+    padding: 25px;
+    background: #35424a;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/*header*/
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+}
+
+    header a {
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 16px;
+    }
+
+    header li {
+        float: left;
+        display: inline;
+        padding: 0 20px 0 20px;
+    }
+
+    header #branding {
+        float: left;
+    }
+
+        header #branding h1 {
+            margin: 0;
+        }
+
+    header nav {
+        float: right;
+        margin-top: 10px;
+    }
+
+    header .highlight, header .current a {
+        color: #e8491d;
+        font-weight: bold;
+    }
+
+    header a:hover {
+        color: #cccccc;
+        font-weight: bold;
+    }
+
+/*showcase*/
+#showcase {
+    min-height: 800px;
+    text-align: center;
+    color: white;
+    background-color: #4a5d68
+}
+
+    #showcase h1 {
+        margin-top: 25px;
+        font-size: 40px;
+        margin-bottom: 10px;
+        color: #e8491d
+    }
+
+    #showcase p {
+        font-size: 20px;
+    }
+/*Boxes*/
+#boxes {
+    margin-top: 10px;
+}
+
+    #boxes .box {
+        float: left;
+        width: 30%;
+        padding: 10px;
+        text-align: center;
+        border-style: solid;
+        border-color: #e8491d;
+    }
+
+/*Area around "save" button*/
+#areaAroundButton {
+    padding: 15px;
+    color: #ffffff;
+    background: #35424a;
+}
+
+
+    #areaAroundButton form {
+        float: center;
+    }
+
+
+footer {
+    padding: 5px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #e8491d;
+    text-align: center;
+}
+
+/*Media Queries*/
+@media(max-width: 768px) {
+    header #branding,
+    header nav,
+    header nav li,
+    #boxes .box,
+    aside#sidebar {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    header {
+        padding-bottom: 20px;
+    }
+
+    #showcase h1 {
+        margin-top: 40px;
+    }
+
+    #areaAroundButton button .quote button {
+        display: block;
+        width: 100%;
+    }
+}
